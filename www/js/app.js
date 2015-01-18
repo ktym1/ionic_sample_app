@@ -100,3 +100,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $urlRouterProvider.otherwise('/tab/dash');
 
 });
+
+// angular.module('myApp')
+
+// .config(function($stateProvider){
+//     $stateProvider.state('userinfos',{
+//       url:'/userinfos',
+//       controller: 'UserInfoListController',
+//       templateURL:'views/userinfos.html'
+//     })
+
+    // .state('createUserInfo', {
+    //   url:'/userinfo/new',
+    //   controller:'UserInfoCreationController',
+    //   templateURL:'views/create-userinfo.html'
+    // })
+
+    // .state('editUserInfo',{
+    //   url:'/userinfo/edit/:id/:first_name',
+    //   controller:'UserInfoEditController',
+    //   templateURL:'views/edit-userinfo.html'
+    // });
+// });
